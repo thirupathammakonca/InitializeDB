@@ -1,0 +1,6 @@
+CREATE TABLE my_table100 (
+  id NUMBER(10) DEFAULT table_seq.NEXTVAL PRIMARY KEY,
+  col1 VARCHAR2(50),
+  col2 VARCHAR2(50),
+  col3 VARCHAR2(50)
+);
